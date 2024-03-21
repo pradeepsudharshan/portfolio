@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="shortcut icon" href="edu.png" type="x-icon">
+    </head>
+<body>
+    <header>
+<nav id="desktop-nav">
+    <div class="logo">Pradeep Sudharshan M</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills"> Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Pradeep Sudharshan</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+</nav></header>
+<section id="profile">
+    <div class="section__pic-container1">
+        <img src="profile-pic (12).png" alt="Pradeep sudharshan profile picture">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Pradeep Sudharshan M</h1>
+        <p class="section__text__p2">Fresher</p>
+    
+    <div class="btn-container">
+        <button class="btn btn-color-2"
+        onclick="window.open('Pradeep sudharshan M Resume.pdf')">Download CV</button>
+        <button class="btn btn-color-1"
+        onclick="location.href='#contact'">Contact info</button>
+        </div>
+        <div id="socials-container">
+            <img src="61109.png" alt="My linkedIn profile"
+            class="icon" onclick="location.href='https://www.linkedin.com/in/pradeep-926176292'">
+            <img src="25231.png" alt="My GitHub profile"
+            class="icon" onclick="location.href='https://github.com/pradeepsudharshan'">
+        </div>
+    </div>
+</div>
+</section>
+<section id="about">
+    <p class="section__text__p1">Get to know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-whole">
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img src="profile-pic (2).png" alt="My profile picture"
+            class="about-pic">
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <p class="ps"> I'm <b style="font-weight:bolder">Pradeep Sudharshan</b> From Salem . I'm Currently Pursuing My Third Year Bachelor's Degree specialized in Computer Science and Engineering at KSR College of Engineering. My Area of Interest is Web Programming. I have Technical Knowledge in Programming Languages Like JAVA, HTML, CSS and I'm Currently Learning Javascript and Angular.</p>
+                </div>
+            </div>
+        </div>
+    </div></div>
+    <img src="arrow.png" alt="arrow img" class="arrow" onclick="location.href='#skills'">
+</section>
+<section id="skills">
+    <p class="section__text__p1">Overview My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skills-details-container">
+        <div class="skills-containers">
+            <div class="details-container">
+                <h2 class="skills-sub-title">Front-End Development</h2>
+                <span class="span"></span>
+                <div class="article-container">
+                    <article>
+                        <img src="tick.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="tick.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="tick.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Javascript</h3>
+                            <p>Beginner</p>
+                        </div>
+                    </article>
+                </div>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="skills-sub-title">Back-End Development</h2>
+                <span class="span"></span>
+                <div class="article-container">
+                    <article>
+                        <img src="tick.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>JAVA</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="arrow.png" alt="arrow img" class="arrow" onclick="location.href='#projects'">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="project-details-container">
+      <div class="details-container color-container">
+        <div class="article-container">
+        <img src="Tastea_Logo.jpg" alt="logo" class="project-img" width="370" height="350"></div>
+        <div class="title-button">
+            <h2 class="skills-sub-title project-title">Restaurant page</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/pradeepsudharshan'">GitHub</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://pradeepsudharshan.github.io/tastea1/'">Live Demo</button>
+            </div>
+        </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+        <img src="login-page.jpg" alt="logo" class="project-img" width="370" height="350"></div>
+        <div class="title-button">
+            <h2 class="experience-sub-title project-title">Login page</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/pradeepsudharshan'">GitHub</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://pradeepsudharshan.github.io/login_page/'">Live Demo</button>
+            </div>
+        </div></div>
+    </div>
+    <img src="arrow.png" alt="arrow img" class="arrow" onclick="location.href='#contact'">
+</section>
+<section id="contact">
+    <p class="section__text__p1">If any Queries</p>
+    <h1 class="title">Contact me</h1>
+    <div class="contact-container">
+        <div class="contact-form_container"> <ul>
+            <li><b class="ps1">E mail</b> <br><br> <span class="space">cecspradeepsudharshan25@gmail.com</span><br><br><br></li>
+            <li><b class="ps1">Phone number</b> <br><br> <span class="space">9361393700</span></li>
+        </div></ul>
+    </div>
+    <button class="b2" onclick="location.href='#profile'">Scroll to Top</button>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills"> Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2023 Pradeep Sudharshan, All rigths reserved</p>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>

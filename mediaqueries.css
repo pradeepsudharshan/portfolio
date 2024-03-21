@@ -1,0 +1,209 @@
+@media screen and (max-width :1200px){
+    #profile{
+        height:83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+    .span{
+        border: 1px solid black;
+    }
+}
+@media screen and (max-width :1000px){
+    #desktop-nav
+    {
+        display:none;
+    }
+    #hamburger-nav
+    {
+        display:flex;
+    }
+    #skills,.skills-details-container{
+        margin-top:2rem;
+        flex-direction: row;
+    }
+    #profile,.section-container{
+        display:block;
+    }
+    .arrow{
+        display:none;
+    }
+    section,.section-container{
+        height: fit-content;
+    }
+    section{
+        margin:0.5%;
+    }
+    .section__pic-container{
+        width:275px;
+        height:275px;
+        margin: 0 auto 2rem;
+    }
+    .about-details-container{
+        margin-top: 0;
+        align-items: center;
+    }
+    .section-whole
+    {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-pic{
+        height: 250px;
+        width: 250px;
+    }
+    .skills-details-container,.project-details-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .b2{
+        display: none;
+    }
+    #profile{
+        height: 67vh;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width :600px){
+
+    #contact,footer{
+        height:40vh;
+    }
+    #profile{
+        margin-bottom: 0;
+        height: 83vh;
+        display: block;
+    }
+    .project-details-container{
+        flex-direction: column;
+    }
+    .section__pic-container1{
+        height: 350px;
+        width: 350px;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height:fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers,.contact-details-container,.b1,.b2{
+        flex-wrap: wrap;
+        width:105%;
+        height: fit-content;
+    }
+    .about-pic,.details-container{
+        height: fit-content;
+        width: 200px;
+    }
+    .section-whole{
+        height: 83vh;
+    }
+    #about{
+        height: 97vh;
+    }
+    .ps{
+        font-size: 16px;
+    }
+    .contact-details-container{
+        margin:0;
+    }
+    .project-img{
+        height: 250px;
+        width:250px;
+        align-items:flex-start;
+    }
+    .details-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .skills-sub-title{
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .details-container{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap:0.5rem;
+        text-align: center;
+    }
+    .section__pic-container{
+        width:auto;
+        height:40vh;
+        justify-content: center;
+    }
+    .section__text__p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+    .skills-details-container{
+        width: 100%;
+        clear:right;
+        display: flex;
+        flex-direction: column;
+    }
+    .article-container{
+        margin-left: 0;
+    }
+    .contact-form_container{
+        width: 95%;
+        flex-wrap: wrap;
+        margin-left: 7px;
+    }
+    .b2{
+        display: none;
+    }
+    .contact-form_container ul li span{
+        font-size: 1rem;
+    }
+    #contact{
+        height: 80vh;
+    }
+    .span{
+        display: none;
+    }
+}
+@media screen and (max-width :320px){
+.skills-details-container{
+    height: fit-content;
+}
+.about-containers{
+    height: fit-content;
+    width: fit-content;
+}
+.project-img{
+    height: 200px;
+    width: 200px;
+}
+.article-container{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.color-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
